@@ -95,7 +95,7 @@ switch(checknum)
     console.log("TODAY is-THURSDAY");
     break;
   case 5:
-    console.log("TODAY is-FRIDAY");
+    console.log("TODAY isFRIDAY");
     break;
   case 6:
     console.log("TODAY is-SATURDAY");
