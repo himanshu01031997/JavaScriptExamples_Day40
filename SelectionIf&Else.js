@@ -43,35 +43,64 @@
 // }
 /*==============(use case3 print single digit number)================ */
 
-let checknum=Math.floor(Math.random()*10)+1;
-console.log(checknum);
+// let checknum=Math.floor(Math.random()*10)+1;
+// console.log(checknum);
+// switch(checknum)
+// {
+//   case 1:
+//     console.log("number is-ONE");
+//     break;
+//   case 2:
+//     console.log("number is-TWO");
+//     break;
+//   case 3:
+//     console.log("number is-THREE");
+//     break;
+//   case 4:
+//     console.log("number is-FOUR");
+//     break;
+//   case 5:
+//     console.log("number is-FIVE");
+//     break;
+//   case 6:
+//     console.log("number is-SIX");
+//     break;
+//   case 7:
+//     console.log("number is-SEVEN");
+//     break;
+//   case 8:
+//     console.log("number is-EIGHT");
+//     break;
+//   case 9:
+//     console.log("number is-NINE");
+//     break;
+// }
+/*==============(use case4 read a number and display the week days)================ */
+let max=7;
+let min=1;
+ let checknum=Math.floor(Math.random() * (max - min + 1) + min);
+ console.log(checknum);
 switch(checknum)
 {
   case 1:
-    console.log("number is-ONE");
+    console.log("TODAY is-MONDAY");
     break;
   case 2:
-    console.log("number is-TWO");
+    console.log("TODAY is-TUESDAY");
     break;
   case 3:
-    console.log("number is-THREE");
+    console.log("TODAY is-WEDNESDAY");
     break;
   case 4:
-    console.log("number is-FOUR");
+    console.log("TODAY is-THURSDAY");
     break;
   case 5:
-    console.log("number is-FIVE");
+    console.log("TODAY is-FRIDAY");
     break;
   case 6:
-    console.log("number is-SIX");
+    console.log("TODAY is-SATURDAY");
     break;
   case 7:
-    console.log("number is-SEVEN");
+    console.log("TODAY is-SUNDAY");
     break;
-  case 8:
-    console.log("number is-EIGHT");
-    break;
-  case 9:
-    console.log("number is-NINE");
-    break;
-}
+}   
